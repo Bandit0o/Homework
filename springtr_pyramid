@@ -1,0 +1,35 @@
+ import java.util.Scanner;
+
+      public class Main{
+        private static Scanner myScanner = new                   
+        Scanner(System.in);
+
+        public static void main(String[]args){
+        System.out.println("Put in a number: ");
+        
+        int inputNumber = myScanner.nextInt();
+            
+  
+        System.out.println("Left aligned pyramid with " + inputNumber+         "rows:inputNumber");
+
+        
+        for(int i = 1; i <= inputNumber; i++){
+            String pyramidRow = "";
+
+          
+            for(int j = 0; j < i; j++){
+                pyramidRow += "* ";
+            }
+
+            System.out.println(pyramidRow);
+        }
+    }
+            
+         
+
+   
+          }
+      
+        
+  
+         
